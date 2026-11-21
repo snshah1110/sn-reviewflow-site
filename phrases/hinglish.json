@@ -1,0 +1,347 @@
+{
+  "lang": "hinglish",
+  "connector": "Lekin ",
+  "and": "aur",
+  "svc": {
+    "service": [
+      "Maine {s} ke liye inki help li.",
+      "Mera kaam {s} se juda tha.",
+      "Mujhe {s} mein help chahiye thi.",
+      "{s} ke kaam ke liye inse contact kiya.",
+      "{s} ke liye yahan se service li.",
+      "Maine {s} ka kaam yahan se karwaya."
+    ],
+    "product": [
+      "Maine yahan se {s} ki shopping ki.",
+      "Yahan se {s} ki kharidaari ki.",
+      "Mera order {s} ka tha.",
+      "{s} ke liye yahan aana hua.",
+      "Is baar {s} lene aana hua.",
+      "{s} ka order diya."
+    ]
+  },
+  "open": {
+    "pos": [
+      "Yahan mera experience accha raha.",
+      "Apni visit se main sach mein khush hoon.",
+      "Overall bahut accha experience raha.",
+      "Yahan aakar accha laga.",
+      "Mera experience sach mein accha tha.",
+      "Sab kuch jaise hua, usse main satisfied hoon.",
+      "Overall accha experience.",
+      "Is baar ki visit mere liye acchi rahi.",
+      "Yahan mera time accha beeta.",
+      "Is baar ke experience se main khush hoon.",
+      "Mere liye sab kuch smoothly ho gaya.",
+      "Shuru se end tak accha experience raha."
+    ],
+    "neu": [
+      "Overall mera experience theek-thaak raha.",
+      "Mere liye yeh ek average visit thi.",
+      "Kuch cheezein acchi thi, kuch better ho sakti thi.",
+      "Experience theek tha, par perfect nahi.",
+      "Overall sab theek tha.",
+      "Is baar mixed experience raha.",
+      "Theek tha, kuch khaas nahi.",
+      "Theek-thaak visit, kuch cheezon mein improvement chahiye.",
+      "Bura nahi tha, par improvement ki gunjaish hai.",
+      "Overall meri visit theek rahi.",
+      "Overall average experience.",
+      "Basic expectations poori ho gayi."
+    ],
+    "neg": [
+      "Afsos, mera experience accha nahi raha.",
+      "Apni visit se main disappointed hoon.",
+      "Yeh visit mere liye acchi nahi rahi.",
+      "Is baar ke experience se main khush nahi hoon.",
+      "Mera experience expectation se kam raha.",
+      "Isse better ki ummeed thi.",
+      "Dukh ki baat hai, yeh accha experience nahi tha.",
+      "Cheezein jaise hui, usse main satisfied nahi hoon.",
+      "Yeh ek disappointing experience tha.",
+      "Jaisa socha tha, waisa nahi hua.",
+      "Afsos, experience pleasant nahi raha.",
+      "Visit ke dauraan kuch problems hui."
+    ]
+  },
+  "cat": {
+    "product": {
+      "pos": [
+        "Quality sach mein acchi thi.",
+        "Jo mila uski quality se main khush hoon.",
+        "Acchi quality, bilkul waisi jaisi chahiye thi.",
+        "Products ki quality acchi thi.",
+        "Quality ko lekar koi complaint nahi hai.",
+        "Jo mila woh acche se bana tha aur quality badhiya thi."
+      ],
+      "neu": [
+        "Quality theek thi, par bahut khaas nahi.",
+        "Product ki quality average thi.",
+        "Quality chal jaayegi, par better ho sakti hai.",
+        "Zyaadatar quality theek thi.",
+        "Products theek-thaak the, kuch khaas nahi.",
+        "Quality theek thi, par har baar ek jaisi nahi."
+      ],
+      "neg": [
+        "Quality barabar nahi thi.",
+        "Main quality se khush nahi hoon.",
+        "Quality expectation se kam thi.",
+        "Product quality mein improvement ki zaroorat hai.",
+        "Jo mila uski quality kharab thi.",
+        "Is baar quality disappointing rahi."
+      ]
+    },
+    "service": {
+      "pos": [
+        "Service acchi thi aur dhyaan se di gayi.",
+        "Mera acche se dhyaan rakha gaya.",
+        "Service smooth aur helpful rahi.",
+        "Sab kuch bina kisi jhanjhat ke acche se serve kiya gaya.",
+        "Poori visit mein service acchi rahi.",
+        "Service ki wajah se poora experience easy raha."
+      ],
+      "neu": [
+        "Service theek thi.",
+        "Service average thi, thoda aur dhyaan diya ja sakta tha.",
+        "Service theek thi, par zyaada attentive nahi thi.",
+        "Service chalne laayak thi.",
+        "Service theek-thaak thi, par aur better ho sakti hai.",
+        "Service na bahut acchi thi, na buri."
+      ],
+      "neg": [
+        "Service kharab thi.",
+        "Mujh par theek se dhyaan nahi diya gaya.",
+        "Service mein bahut improvement ki zaroorat hai.",
+        "Service mein laaparwahi dikhi.",
+        "Main service se khush nahi hoon.",
+        "Service expectation se kam thi."
+      ]
+    },
+    "staff": {
+      "pos": [
+        "Staff polite aur friendly tha.",
+        "Staff ka behaviour bahut accha tha.",
+        "Team helpful thi aur respect se baat ki.",
+        "Staff se baat karna easy aur accha laga.",
+        "Yahan kaam karne wale log acche aur helpful the.",
+        "Friendly staff, jo help ke liye ready tha."
+      ],
+      "neu": [
+        "Staff theek tha, bahut friendly nahi.",
+        "Staff ka behaviour average tha.",
+        "Staff polite tha, par busy lag raha tha.",
+        "Staff theek tha, na koi complaint, na kuch khaas.",
+        "Kuch staff helpful tha, kuch utna nahi.",
+        "Staff ne apna kaam kiya, par thoda aur warm ho sakta tha."
+      ],
+      "neg": [
+        "Staff ka behaviour rude tha.",
+        "Staff ka behaviour accha nahi tha.",
+        "Staff help karne mein interested nahi lag raha tha.",
+        "Staff ne mujhse theek se baat nahi ki.",
+        "Staff ke attitude mein improvement chahiye.",
+        "Staff se koi help nahi mili."
+      ]
+    },
+    "cleanliness": {
+      "pos": [
+        "Jagah saaf-suthri aur well maintained thi.",
+        "Saaf-safaai bahut acchi thi.",
+        "Sab kuch saaf aur neat dikh raha tha.",
+        "Hygiene ka acche se dhyaan rakha gaya tha.",
+        "Aas-paas saaf-safaai thi, jo mujhe acchi lagi.",
+        "Jagah ekdum saaf thi."
+      ],
+      "neu": [
+        "Saaf-safaai theek thi.",
+        "Jagah kaafi had tak saaf thi.",
+        "Safaai thodi aur better ho sakti hai.",
+        "Saaf toh tha, par ekdum saaf nahi.",
+        "Hygiene chalne laayak tha.",
+        "Kuch jagah saaf thi, kuch par dhyaan dene ki zaroorat hai."
+      ],
+      "neg": [
+        "Jagah saaf nahi thi.",
+        "Saaf-safaai kharab thi.",
+        "Hygiene par seriously dhyaan dene ki zaroorat hai.",
+        "Aas-paas gandagi thi.",
+        "Saaf-safaai dekhkar accha nahi laga.",
+        "Yeh jagah aur zyaada saaf ho sakti thi."
+      ]
+    },
+    "value": {
+      "pos": [
+        "Jo mila uske hisaab se price sahi tha.",
+        "Paisa vasool.",
+        "Price reasonable tha.",
+        "Jitna paisa diya, utna worth tha.",
+        "Prices honest aur fair lage.",
+        "Overall acchi value mili."
+      ],
+      "neu": [
+        "Price theek tha.",
+        "Value for money average thi.",
+        "Thoda mehenga hai, par chal jaayega.",
+        "Price fair tha, par bahut sasta nahi.",
+        "Zyaadatar price reasonable tha.",
+        "Jo mila uske hisaab se value theek thi."
+      ],
+      "neg": [
+        "Price zaroorat se zyaada laga.",
+        "Paisa vasool nahi hua.",
+        "Jo mila uske hisaab se price bahut zyaada tha.",
+        "Mujhe yeh price ke laayak nahi laga.",
+        "Prices fair nahi lage.",
+        "Quality ke hisaab se mehenga hai."
+      ]
+    },
+    "speed": {
+      "pos": [
+        "Sab kuch time par ho gaya.",
+        "Zyaada wait nahi karna pada.",
+        "Quick aur time par.",
+        "Kaam jaldi hua, par hadbadi nahi ki gayi.",
+        "Cheezein turant handle ho gayi.",
+        "Koi bekaar delay nahi hua."
+      ],
+      "neu": [
+        "Waiting time theek tha.",
+        "Expectation se thoda zyaada time laga.",
+        "Timing average thi.",
+        "Thoda wait karna pada, par chal gaya.",
+        "Speed theek thi, thodi aur fast ho sakti hai.",
+        "Na bahut slow, na bahut fast."
+      ],
+      "neg": [
+        "Bahut zyaada wait karna pada.",
+        "Kaam mein delay hua.",
+        "Sab kuch bahut slow tha.",
+        "Kaam time par nahi hua.",
+        "Waiting kaafi frustrating thi.",
+        "Chhote se kaam ke liye bahut der lagi."
+      ]
+    },
+    "communication": {
+      "pos": [
+        "Unhone sab kuch clearly samjhaya.",
+        "Baat-cheet clear aur easy rahi.",
+        "Mere sawaalon ke sahi jawaab mile.",
+        "Poore time mujhe update diya gaya.",
+        "Unse baat karna aur samajhna easy tha.",
+        "Unhone meri zaroorat dhyaan se suni."
+      ],
+      "neu": [
+        "Communication theek tha.",
+        "Kuch cheezein aur acche se samjhayi ja sakti thi.",
+        "Communication average tha.",
+        "Sawaalon ke jawaab mile, par chhote-chhote.",
+        "Information theek thi, par zyaada detail mein nahi.",
+        "Clear jawaab paane mein thodi mehnat lagi."
+      ],
+      "neg": [
+        "Communication kharab tha.",
+        "Kisi ne cheezein clearly nahi samjhayi.",
+        "Mere sawaalon ke sahi jawaab nahi mile.",
+        "Mujhe koi update nahi diya gaya.",
+        "Clear information milna mushkil tha.",
+        "Unhone meri zaroorat nahi suni."
+      ]
+    },
+    "ambience": {
+      "pos": [
+        "Mahaul accha tha.",
+        "Accha aur comfortable ambience.",
+        "Yahan rehna comfortable laga.",
+        "Mahaul relaxed aur welcoming tha.",
+        "Overall ambience accha tha.",
+        "Mujhe jagah ka overall feel pasand aaya."
+      ],
+      "neu": [
+        "Ambience theek tha.",
+        "Mahaul average tha.",
+        "Jagah kaafi had tak comfortable thi.",
+        "Ambience theek tha, kuch khaas nahi.",
+        "Seating aur mahaul theek-thaak the.",
+        "Jagah thodi aur comfortable ho sakti hai."
+      ],
+      "neg": [
+        "Mahaul accha nahi tha.",
+        "Jagah comfortable nahi thi.",
+        "Ambience mein improvement ki zaroorat hai.",
+        "Yahan rehna comfortable nahi laga.",
+        "Mahaul welcoming nahi laga.",
+        "Mujhe jagah ka mahaul pasand nahi aaya."
+      ]
+    },
+    "expertise": {
+      "pos": [
+        "Unhe apne kaam ki acchi knowledge thi.",
+        "Jo advice mili, woh clear aur kaam ki thi.",
+        "Bahut knowledgeable aur professional.",
+        "Mera kaam acchi samajh ke saath handle kiya gaya.",
+        "Unhone meri requirement jaldi samjhi aur sahi guide kiya.",
+        "Experienced logon se sahi guidance mili."
+      ],
+      "neu": [
+        "Advice theek thi, par aur detail mein ho sakti thi.",
+        "Meri zaroorat ke hisaab se unki knowledge theek lagi.",
+        "Guidance average thi.",
+        "Advice kuch had tak kaam ki thi.",
+        "Mera kaam theek-thaak tareeke se handle kiya gaya.",
+        "Advice mein thodi aur clarity ki ummeed thi."
+      ],
+      "neg": [
+        "Advice kaam ki nahi thi.",
+        "Jo guidance mili, us par bharosa nahi hua.",
+        "Mera kaam theek se handle nahi kiya gaya.",
+        "Guidance clear nahi thi aur confusing thi.",
+        "Woh meri requirement samajhte hue nahi lage.",
+        "Isse kahin better advice ki ummeed thi."
+      ]
+    }
+  },
+  "close": {
+    "pos": [
+      "Recommend karne laayak.",
+      "Dobara aana accha lagega.",
+      "Aise hi accha kaam karte rahiye.",
+      "Acche experience ke liye thank you.",
+      "Yahan phir se zaroor aana chahenge.",
+      "Is jagah ko recommend karke khushi hogi.",
+      "Poori team ka shukriya.",
+      "Agli visit ka intezaar rahega.",
+      "Overall badhiya kaam.",
+      "Phir milenge.",
+      "Yeh jagah chun kar accha laga.",
+      "Thank you, visit acchi rahi."
+    ],
+    "neu": [
+      "Ummeed hai agli baar aur better hoga.",
+      "Theek hai, par improvement ki gunjaish hai.",
+      "Thodi mehnat se aur better ho sakta hai.",
+      "Overall theek.",
+      "Overall ek average experience.",
+      "Kuch improvements se bada farak padega.",
+      "Meri zaroorat ke hisaab se theek tha.",
+      "Kuch improvements dekhne ki ummeed hai.",
+      "Overall bura nahi.",
+      "Overall theek-thaak.",
+      "Kuch changes se yeh better ho jaayega.",
+      "Thank you, visit theek rahi."
+    ],
+    "neg": [
+      "Ummeed hai yeh feedback improve karne mein help karega.",
+      "Please in baaton par dhyaan dijiye.",
+      "Ummeed hai cheezein better hongi.",
+      "Ummeed hai management is par dhyaan dega.",
+      "Improvement ki zaroorat hai.",
+      "Overall disappointment hua.",
+      "Ummeed hai yeh jaldi theek hoga.",
+      "Yeh feedback improvement ke liye hai.",
+      "Overall satisfied nahi hoon.",
+      "Ummeed hai agla experience better hoga.",
+      "In problems ko solve kiya jaana chahiye.",
+      "Sorry, par isme kaafi improvement chahiye."
+    ]
+  }
+}

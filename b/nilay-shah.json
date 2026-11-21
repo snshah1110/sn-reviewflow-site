@@ -1,0 +1,125 @@
+{
+  "code": "nilay-shah",
+  "active": true,
+  "name": "Nilay Shah & Associates",
+  "type": "ca",
+  "kind": "service",
+  "logo": "",
+  "color": "#1F3A5F",
+  "googleReviewUrl": "https://g.page/r/CVYJRfPQLbY_EBM/review",
+  "languages": [
+    "en",
+    "hi",
+    "hinglish"
+  ],
+  "categories": [
+    "service",
+    "staff",
+    "value",
+    "speed",
+    "communication",
+    "expertise"
+  ],
+  "labels": {
+    "speed": {
+      "en": "Timely work",
+      "hi": "समय पर काम",
+      "hinglish": "Time par kaam"
+    },
+    "value": {
+      "en": "Fees & value",
+      "hi": "फ़ीस और वैल्यू",
+      "hinglish": "Fees aur value"
+    }
+  },
+  "services": [
+    {
+      "id": "itr",
+      "en": "Income Tax return filing",
+      "hi": "इनकम टैक्स रिटर्न",
+      "hinglish": "Income Tax return filing"
+    },
+    {
+      "id": "gst",
+      "en": "GST registration and returns",
+      "hi": "जीएसटी रजिस्ट्रेशन और रिटर्न",
+      "hinglish": "GST registration aur returns"
+    },
+    {
+      "id": "tds",
+      "en": "TDS returns",
+      "hi": "टीडीएस रिटर्न",
+      "hinglish": "TDS returns"
+    },
+    {
+      "id": "notices",
+      "en": "Income Tax / GST notices",
+      "hi": "इनकम टैक्स / जीएसटी नोटिस",
+      "hinglish": "Income Tax / GST notice"
+    },
+    {
+      "id": "audit",
+      "en": "audit",
+      "hi": "ऑडिट",
+      "hinglish": "audit"
+    },
+    {
+      "id": "accounting",
+      "en": "accounting and bookkeeping",
+      "hi": "अकाउंटिंग और बहीखाता",
+      "hinglish": "accounting aur bookkeeping"
+    },
+    {
+      "id": "company",
+      "en": "company / LLP registration",
+      "hi": "कंपनी / LLP रजिस्ट्रेशन",
+      "hinglish": "company / LLP registration"
+    },
+    {
+      "id": "roc",
+      "en": "ROC compliance",
+      "hi": "ROC कंप्लायंस",
+      "hinglish": "ROC compliance"
+    },
+    {
+      "id": "project-finance",
+      "en": "project finance",
+      "hi": "प्रोजेक्ट फ़ाइनेंस",
+      "hinglish": "project finance"
+    },
+    {
+      "id": "loans",
+      "en": "loan assistance",
+      "hi": "लोन सहायता",
+      "hinglish": "loan assistance"
+    },
+    {
+      "id": "tax-planning",
+      "en": "tax planning",
+      "hi": "टैक्स प्लानिंग",
+      "hinglish": "tax planning"
+    },
+    {
+      "id": "advisory",
+      "en": "financial advisory",
+      "hi": "फ़ाइनेंशियल सलाह",
+      "hinglish": "financial advisory"
+    },
+    {
+      "id": "trust-registration",
+      "en": "trust registration",
+      "hi": "ट्रस्ट रजिस्ट्रेशन",
+      "hinglish": "trust registration"
+    }
+  ],
+  "welcome": {
+    "en": "Thank you for choosing Nilay Shah & Associates. Please share your experience with us – it takes less than a minute.",
+    "hi": "निलय शाह एंड एसोसिएट्स को चुनने के लिए धन्यवाद। कृपया अपना अनुभव बताइए – एक मिनट से भी कम लगेगा।",
+    "hinglish": "Nilay Shah & Associates ko chunne ke liye thank you. Please apna experience batayein – ek minute se bhi kam lagega."
+  },
+  "thanks": {
+    "en": "Thank you for your feedback. We value your trust.",
+    "hi": "आपके फ़ीडबैक के लिए धन्यवाद। आपके भरोसे के लिए आभार।",
+    "hinglish": "Feedback ke liye thank you. Aapke bharose ke liye shukriya."
+  }
+}

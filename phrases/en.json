@@ -1,0 +1,347 @@
+{
+  "lang": "en",
+  "connector": "However, ",
+  "and": "and",
+  "svc": {
+    "service": [
+      "I took their help for {s}.",
+      "My work was related to {s}.",
+      "I needed help with {s}.",
+      "I approached them for {s}.",
+      "I used their services for {s}.",
+      "I got my {s} work done here."
+    ],
+    "product": [
+      "I shopped here for {s}.",
+      "I bought {s} from here.",
+      "My order was for {s}.",
+      "I came here for {s}.",
+      "This time I came to get {s}.",
+      "I placed an order for {s}."
+    ]
+  },
+  "open": {
+    "pos": [
+      "Had a good experience here.",
+      "Really happy with my visit.",
+      "Overall, a very pleasant experience.",
+      "Glad I came here.",
+      "My experience was genuinely good.",
+      "Satisfied with how everything went.",
+      "Good experience overall.",
+      "This visit went well for me.",
+      "Had a nice time here.",
+      "Pleased with my experience this time.",
+      "Everything went smoothly for me.",
+      "A good experience from start to finish."
+    ],
+    "neu": [
+      "My experience was okay overall.",
+      "It was an average visit for me.",
+      "Some things were good, some could be better.",
+      "A decent experience, though not perfect.",
+      "Overall it was fine.",
+      "Mixed experience this time.",
+      "It was alright, nothing special.",
+      "An okay visit with a few things to improve.",
+      "Not bad, but there is room for improvement.",
+      "My visit was reasonable overall.",
+      "Fair experience overall.",
+      "It met my basic expectations."
+    ],
+    "neg": [
+      "Unfortunately, my experience was not good.",
+      "I was disappointed with my visit.",
+      "This visit did not go well for me.",
+      "Not happy with my experience this time.",
+      "My experience fell short of expectations.",
+      "I expected better than this.",
+      "Sadly, this was not a good experience.",
+      "Not satisfied with how things went.",
+      "This was a disappointing experience.",
+      "Things did not go as I had hoped.",
+      "Not a pleasant experience, unfortunately.",
+      "I faced some problems during my visit."
+    ]
+  },
+  "cat": {
+    "product": {
+      "pos": [
+        "The quality was really good.",
+        "Happy with the quality of what I got.",
+        "Good quality, exactly what I needed.",
+        "The products were of good quality.",
+        "Quality-wise, I have no complaints.",
+        "What I received was well made and of good quality."
+      ],
+      "neu": [
+        "The quality was okay, but not outstanding.",
+        "Product quality was average.",
+        "The quality was acceptable, though it could be better.",
+        "Quality was fine for the most part.",
+        "The products were decent, nothing extraordinary.",
+        "Quality was fine, but not consistent every time."
+      ],
+      "neg": [
+        "The quality was not up to the mark.",
+        "Not happy with the quality.",
+        "Quality was below what I expected.",
+        "The product quality needs improvement.",
+        "What I got was of poor quality.",
+        "Quality was disappointing this time."
+      ]
+    },
+    "service": {
+      "pos": [
+        "The service was good and attentive.",
+        "I was well taken care of.",
+        "Service was smooth and helpful.",
+        "Everything was served properly and without fuss.",
+        "Good service throughout my visit.",
+        "The service made the whole experience easy."
+      ],
+      "neu": [
+        "Service was okay.",
+        "The service was average and could be more attentive.",
+        "Service was fine, though not very attentive.",
+        "Service was acceptable.",
+        "The service was decent, but could be better.",
+        "Service was neither great nor bad."
+      ],
+      "neg": [
+        "The service was poor.",
+        "I was not attended to properly.",
+        "Service needs a lot of improvement.",
+        "The service felt careless.",
+        "Not happy with the service.",
+        "Service was below expectations."
+      ]
+    },
+    "staff": {
+      "pos": [
+        "The staff were polite and friendly.",
+        "Staff behaviour was very courteous.",
+        "The team was helpful and respectful.",
+        "The staff were easy and pleasant to talk to.",
+        "The people working here were kind and helpful.",
+        "Friendly staff who were ready to help."
+      ],
+      "neu": [
+        "Staff were okay, not particularly friendly.",
+        "Staff behaviour was average.",
+        "The staff were polite but seemed busy.",
+        "Staff were fine, nothing to complain about but nothing special.",
+        "Some staff were helpful, others less so.",
+        "The staff did their job, but could be warmer."
+      ],
+      "neg": [
+        "The staff were rude.",
+        "Staff behaviour was not good.",
+        "The staff did not seem interested in helping.",
+        "The staff did not speak to me politely.",
+        "Staff attitude needs improvement.",
+        "I got no help from the staff."
+      ]
+    },
+    "cleanliness": {
+      "pos": [
+        "The place was clean and well maintained.",
+        "Cleanliness was very good.",
+        "Everything looked clean and neat.",
+        "Hygiene was clearly taken care of.",
+        "The surroundings were clean, which I appreciated.",
+        "The place was spotless."
+      ],
+      "neu": [
+        "Cleanliness was okay.",
+        "The place was reasonably clean.",
+        "Cleanliness could be a little better.",
+        "It was clean, though not spotless.",
+        "Hygiene was acceptable.",
+        "Some areas were clean, some needed attention."
+      ],
+      "neg": [
+        "The place was not clean.",
+        "Cleanliness was poor.",
+        "Hygiene needs serious attention.",
+        "The surroundings were untidy.",
+        "The cleanliness did not feel right to me.",
+        "The place could have been much cleaner."
+      ]
+    },
+    "value": {
+      "pos": [
+        "Prices were fair for what I got.",
+        "Good value for money.",
+        "Reasonably priced.",
+        "Worth the money I paid.",
+        "The pricing felt honest and fair.",
+        "Good value overall."
+      ],
+      "neu": [
+        "Prices were okay.",
+        "Value for money was average.",
+        "A little on the expensive side, but acceptable.",
+        "Pricing was fair, though not especially cheap.",
+        "Prices were reasonable for the most part.",
+        "Value was okay for what I got."
+      ],
+      "neg": [
+        "It felt overpriced.",
+        "Not good value for money.",
+        "The prices were too high for what I got.",
+        "I did not find it worth the price.",
+        "The pricing did not feel fair.",
+        "Expensive for the quality offered."
+      ]
+    },
+    "speed": {
+      "pos": [
+        "Everything was done on time.",
+        "I did not have to wait long.",
+        "Quick and on time.",
+        "Work was done quickly, without rushing.",
+        "Things were handled promptly.",
+        "No unnecessary delays."
+      ],
+      "neu": [
+        "The waiting time was okay.",
+        "It took a little longer than expected.",
+        "Timing was average.",
+        "There was some waiting, but it was manageable.",
+        "Speed was fine, though it could be quicker.",
+        "Not too slow, not too fast."
+      ],
+      "neg": [
+        "I had to wait too long.",
+        "There were delays.",
+        "Everything was very slow.",
+        "Things were not done on time.",
+        "The waiting was quite frustrating.",
+        "It took far too long for a simple thing."
+      ]
+    },
+    "communication": {
+      "pos": [
+        "They explained everything clearly.",
+        "Communication was clear and easy.",
+        "My questions were answered properly.",
+        "They kept me updated throughout.",
+        "Easy to talk to and easy to understand.",
+        "They listened carefully to what I needed."
+      ],
+      "neu": [
+        "Communication was okay.",
+        "Some things could have been explained better.",
+        "Communication was average.",
+        "My questions were answered, but only briefly.",
+        "Information was fine, but not very detailed.",
+        "It took some effort to get clear answers."
+      ],
+      "neg": [
+        "Communication was poor.",
+        "Nobody explained things clearly.",
+        "My questions were not answered properly.",
+        "I was not kept updated.",
+        "It was hard to get clear information.",
+        "They did not listen to what I needed."
+      ]
+    },
+    "ambience": {
+      "pos": [
+        "The atmosphere was pleasant.",
+        "Nice and comfortable ambience.",
+        "It was a comfortable place to be in.",
+        "The setting was relaxed and welcoming.",
+        "Good ambience overall.",
+        "I liked the overall feel of the place."
+      ],
+      "neu": [
+        "The ambience was okay.",
+        "The atmosphere was average.",
+        "The place was comfortable enough.",
+        "Ambience was fine, nothing special.",
+        "Seating and atmosphere were acceptable.",
+        "The place could be a little more comfortable."
+      ],
+      "neg": [
+        "The atmosphere was not pleasant.",
+        "The place was not comfortable.",
+        "The ambience needs improvement.",
+        "It was not a comfortable place to be in.",
+        "The setting felt unwelcoming.",
+        "I did not like the overall feel of the place."
+      ]
+    },
+    "expertise": {
+      "pos": [
+        "They clearly knew their work well.",
+        "The advice I got was clear and useful.",
+        "Very knowledgeable and professional.",
+        "My matter was handled with good expertise.",
+        "They understood my requirement quickly and guided me well.",
+        "Got proper guidance from experienced people."
+      ],
+      "neu": [
+        "The advice was okay, but could be more detailed.",
+        "Their knowledge seemed fine for my needs.",
+        "Guidance was average.",
+        "The advice was helpful in parts.",
+        "They handled my matter adequately.",
+        "I expected a little more clarity in the advice."
+      ],
+      "neg": [
+        "The advice was not helpful.",
+        "I was not confident in the guidance I got.",
+        "My matter was not handled properly.",
+        "The guidance was unclear and confusing.",
+        "They did not seem to understand my requirement.",
+        "I expected much better advice."
+      ]
+    }
+  },
+  "close": {
+    "pos": [
+      "Worth recommending.",
+      "Would be happy to visit again.",
+      "Keep up the good work.",
+      "Thank you for a good experience.",
+      "Would definitely like to come back.",
+      "Happy to recommend this place.",
+      "Thanks to the whole team.",
+      "Looking forward to the next visit.",
+      "Good job overall.",
+      "See you again.",
+      "Glad I chose this place.",
+      "Thanks, it was a good visit."
+    ],
+    "neu": [
+      "Hope it improves next time.",
+      "Decent, but there is room to improve.",
+      "Could be better with a little effort.",
+      "Okay overall.",
+      "An average experience overall.",
+      "A few improvements would make a big difference.",
+      "It was fine for what I needed.",
+      "Hope to see some improvements.",
+      "Not bad overall.",
+      "Fair enough overall.",
+      "Some changes would make it better.",
+      "Thanks, it was an okay visit."
+    ],
+    "neg": [
+      "I hope this feedback helps you improve.",
+      "Please look into these issues.",
+      "Hope things get better.",
+      "I hope the management takes note.",
+      "Needs improvement.",
+      "Disappointed overall.",
+      "I hope this gets fixed soon.",
+      "This feedback is meant to help things improve.",
+      "Not satisfied overall.",
+      "Hope the next experience is better.",
+      "These issues should be addressed.",
+      "Sorry to say, but it needs a lot of work."
+    ]
+  }
+}

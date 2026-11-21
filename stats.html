@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/sn-reviewflow-site/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Review Stats</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    main { max-width: 720px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+    .tile { background: var(--card); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 14px; }
+    .tile b { display: block; font-size: 1.6rem; margin-top: 4px; }
+    .tile span { color: var(--muted); font-size: .85rem; }
+    .group { margin: 8px 0 0; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+    .bar { display: grid; grid-template-columns: 34px 1fr 44px; align-items: center; gap: 8px; font-size: .95rem; }
+    .bar i { display: block; height: 12px; border-radius: 6px; background: var(--brand); }
+    select, input { font: inherit; font-size: 1.05rem; padding: 12px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); width: 100%; }
+    .err { color: #b42318; }
+  </style>
+</head>
+<body>
+  <main id="app"><div class="loading">…</div></main>
+  <script type="module" src="stats.js"></script>
+</body>
+</html>
