@@ -278,7 +278,7 @@
         "Unhe apne kaam ki acchi knowledge thi.",
         "Jo advice mili, woh clear aur kaam ki thi.",
         "Bahut knowledgeable aur professional.",
-        "Mera kaam acchi samajh ke saath handle kiya gaya.",
+        "Unhone sahi cheez chunne mein help ki.",
         "Unhone meri requirement jaldi samjhi aur sahi guide kiya.",
         "Experienced logon se sahi guidance mili."
       ],
@@ -287,13 +287,13 @@
         "Meri zaroorat ke hisaab se unki knowledge theek lagi.",
         "Guidance average thi.",
         "Advice kuch had tak kaam ki thi.",
-        "Mera kaam theek-thaak tareeke se handle kiya gaya.",
+        "Unki guidance theek-thaak thi.",
         "Advice mein thodi aur clarity ki ummeed thi."
       ],
       "neg": [
         "Advice kaam ki nahi thi.",
         "Jo guidance mili, us par bharosa nahi hua.",
-        "Mera kaam theek se handle nahi kiya gaya.",
+        "Woh mujhe theek se guide nahi kar paaye.",
         "Guidance clear nahi thi aur confusing thi.",
         "Woh meri requirement samajhte hue nahi lage.",
         "Isse kahin better advice ki ummeed thi."

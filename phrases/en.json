@@ -278,7 +278,7 @@
         "They clearly knew their work well.",
         "The advice I got was clear and useful.",
         "Very knowledgeable and professional.",
-        "My matter was handled with good expertise.",
+        "They guided me to the right choice.",
         "They understood my requirement quickly and guided me well.",
         "Got proper guidance from experienced people."
       ],
@@ -287,13 +287,13 @@
         "Their knowledge seemed fine for my needs.",
         "Guidance was average.",
         "The advice was helpful in parts.",
-        "They handled my matter adequately.",
+        "Their guidance was adequate.",
         "I expected a little more clarity in the advice."
       ],
       "neg": [
         "The advice was not helpful.",
         "I was not confident in the guidance I got.",
-        "My matter was not handled properly.",
+        "They could not guide me properly.",
         "The guidance was unclear and confusing.",
         "They did not seem to understand my requirement.",
         "I expected much better advice."

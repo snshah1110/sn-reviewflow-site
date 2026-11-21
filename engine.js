@@ -88,7 +88,7 @@ export function makePicks(lib, input, rand = Math.random, prev = null) {
 function joinConnector(lib, sentence) {
   const c = lib.connector || '';
   if (!c) return sentence;
-  if (lib.lang === 'en') {
+  if (lib.lang === 'en' || lib.lang === 'hinglish') {
     const keepCap = /^(I\b|I'm|I've)/.test(sentence);
     return c + (keepCap ? sentence : sentence.charAt(0).toLowerCase() + sentence.slice(1));
   }

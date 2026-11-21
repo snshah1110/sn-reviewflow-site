@@ -1,0 +1,114 @@
+{
+  "code": "dhimant-bearings",
+  "active": true,
+  "ownFirm": true,
+  "license": "",
+  "name": "Dhimant Bearings Suppliers",
+  "type": "bearings",
+  "kind": "product",
+  "logo": "",
+  "color": "#24527A",
+  "googleReviewUrl": "https://g.page/r/CUiN9cYDiV8QECE/review",
+  "languages": [
+    "en",
+    "hi",
+    "hinglish"
+  ],
+  "categories": [
+    "product",
+    "expertise",
+    "value",
+    "speed",
+    "staff",
+    "service"
+  ],
+  "labels": {
+    "expertise": {
+      "en": "Product knowledge",
+      "hi": "प्रोडक्ट की जानकारी",
+      "hinglish": "Product knowledge"
+    },
+    "speed": {
+      "en": "Quick supply",
+      "hi": "जल्दी सप्लाई",
+      "hinglish": "Jaldi supply"
+    },
+    "value": {
+      "en": "Price",
+      "hi": "दाम",
+      "hinglish": "Price"
+    }
+  },
+  "services": [
+    {
+      "id": "ball-bearings",
+      "en": "ball bearings",
+      "hi": "बॉल बेयरिंग",
+      "hinglish": "ball bearings"
+    },
+    {
+      "id": "roller-bearings",
+      "en": "roller bearings",
+      "hi": "रोलर बेयरिंग",
+      "hinglish": "roller bearings"
+    },
+    {
+      "id": "taper-bearings",
+      "en": "taper roller bearings",
+      "hi": "टेपर रोलर बेयरिंग",
+      "hinglish": "taper roller bearings"
+    },
+    {
+      "id": "needle-bearings",
+      "en": "needle bearings",
+      "hi": "नीडल बेयरिंग",
+      "hinglish": "needle bearings"
+    },
+    {
+      "id": "auto-bearings",
+      "en": "automobile bearings",
+      "hi": "ऑटोमोबाइल बेयरिंग",
+      "hinglish": "automobile bearings"
+    },
+    {
+      "id": "housings",
+      "en": "pillow blocks and housings",
+      "hi": "पिलो ब्लॉक और हाउसिंग",
+      "hinglish": "pillow block aur housing"
+    },
+    {
+      "id": "oil-seals",
+      "en": "oil seals",
+      "hi": "ऑयल सील",
+      "hinglish": "oil seals"
+    },
+    {
+      "id": "v-belts",
+      "en": "V-belts",
+      "hi": "V-बेल्ट",
+      "hinglish": "V-belts"
+    },
+    {
+      "id": "grease",
+      "en": "grease and lubricants",
+      "hi": "ग्रीस और लुब्रिकेंट",
+      "hinglish": "grease aur lubricants"
+    },
+    {
+      "id": "bulk-order",
+      "en": "a bulk / wholesale order",
+      "hi": "थोक ऑर्डर",
+      "hinglish": "wholesale order"
+    }
+  ],
+  "welcome": {
+    "en": "Thank you for buying from Dhimant Bearings Suppliers. Please share your experience with us – it takes less than a minute.",
+    "hi": "धीमंत बेयरिंग्स सप्लायर्स से ख़रीदारी के लिए धन्यवाद। कृपया अपना अनुभव बताइए – एक मिनट से भी कम लगेगा।",
+    "hinglish": "Dhimant Bearings Suppliers se kharidaari ke liye thank you. Please apna experience batayein – ek minute se bhi kam lagega."
+  },
+  "thanks": {
+    "en": "Thank you for your feedback. We look forward to serving you again.",
+    "hi": "आपके फ़ीडबैक के लिए धन्यवाद। आपकी फिर से सेवा करने का इंतज़ार रहेगा।",
+    "hinglish": "Feedback ke liye thank you. Aapko phir se serve karne ka intezaar rahega."
+  }
+}
