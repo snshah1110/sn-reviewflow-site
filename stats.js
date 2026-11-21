@@ -76,7 +76,25 @@ function show(data, range = 30) {
     el('div', { class: 'grid' }, tile('Google review page opened', opened),
       tile('Opened ÷ visits', visits ? Math.round(opened / visits * 100) + '%' : '–')),
     el('p', { class: 'note' }, '“Google review page opened” counts button presses only. Google does not tell us whether a review was actually posted – check your Google Business Profile for real reviews.'),
+    ...qrSection(data.name || code),
   ));
+}
+
+/** Download your QR codes / print cards, and share the review link on WhatsApp. */
+function qrSection(name) {
+  const f = file => `qr/${code}/${file}`;
+  const dl = (label, file) => el('a', { class: 'btn', href: f(file), download: `${code}-${file}` }, label);
+  const page = new URL(`r/${code}/?src=whatsapp`, document.baseURI).href;
+  const wa = 'https://wa.me/?text=' + encodeURIComponent(`Thank you for choosing ${name}! We would love to hear about your experience: ${page}`);
+  return [
+    el('p', { class: 'group' }, 'Your QR codes'),
+    el('p', { class: 'muted' }, 'Print cards (A6 size): open, then print – or send the file to your printer shop. Put them where your old Google review QR was.'),
+    el('div', { class: 'grid' }, dl('⬇ Counter card', 'card-counter-A6.svg'), dl('⬇ Table card', 'card-table-A6.svg'), dl('⬇ Packaging card', 'card-packaging-A6.svg')),
+    el('p', { class: 'muted' }, 'Plain QR images (for your own bills, stickers, banners or website):'),
+    el('div', { class: 'grid' }, dl('⬇ QR – counter', 'qr-counter.png'), dl('⬇ QR – table', 'qr-table.png'), dl('⬇ QR – packaging', 'qr-packaging.png'), dl('⬇ QR – website', 'qr-website.png')),
+    el('p', { class: 'muted' }, 'Send the review link to your customers after a sale:'),
+    el('a', { class: 'btn primary', href: wa, target: '_blank', rel: 'noopener' }, 'Share on WhatsApp'),
+  ];
 }
 
 if (!code || !CONFIG.STATS_URL) app.replaceChildren(el('section', { class: 'screen' }, el('h2', {}, !code ? 'Stats link is incomplete.' : 'Stats are not switched on yet.')));
