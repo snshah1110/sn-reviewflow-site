@@ -76,7 +76,7 @@ function shell(...content) {
 const views = {
   welcome() {
     const b = S.biz;
-    const logo = b.logo ? el('img', { src: b.logo, alt: '' }) : el('div', { class: 'mono', 'aria-hidden': 'true' }, (b.name.replace(/^\[DEMO\]\s*/, '')[0] || '★').toUpperCase());
+    const logo = b.logo ? el('img', { src: b.logo, alt: '' }) : el('div', { class: 'mono', 'aria-hidden': 'true' }, ((b.name.match(/[\p{L}\p{N}]/u) || ['★'])[0]).toUpperCase());
     const langs = LANGS.filter(l => (b.languages || ['en']).includes(l.code));
     shell(
       el('div', { class: 'brand' }, logo, el('h1', {}, b.name)),
