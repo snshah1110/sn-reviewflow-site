@@ -1,4 +1,18 @@
 import { CONFIG } from './config.js';
+import { licenseState } from './license.js';
+
+let licNote = null;
+async function loadLicense() {
+  try {
+    const b = await (await fetch(new URL(`./b/${code}.json`, import.meta.url), { cache: 'no-cache' })).json();
+    if (b.ownFirm) return;
+    const st = await licenseState(code, b.license);
+    const txt = st.state === 'active' ? (st.daysLeft <= 7 ? `Your SN ReviewFlow plan ends on ${st.expiry} (${st.daysLeft} day(s) left). Please renew to keep your review page running.` : null)
+      : st.state === 'grace' ? `Your SN ReviewFlow plan ended on ${st.expiry}. The review page will stop in a few days – please renew now.`
+      : 'Your SN ReviewFlow plan is not active, so the review page is switched off. Please contact S N Enterprise to renew.';
+    if (txt) licNote = el('p', { class: st.state === 'active' ? 'note' : 'err' }, txt);
+  } catch { /* stats still work without this */ }
+}
 
 const app = document.getElementById('app');
 const code = (new URLSearchParams(location.search).get('b') || '').toLowerCase();
@@ -48,6 +62,7 @@ function show(data, range = 30) {
   app.replaceChildren(el('section', { class: 'screen' },
     el('h1', {}, data.name || code),
     data.active === false ? el('p', { class: 'err' }, 'This account is not active. Please contact S N Enterprise.') : null,
+    licNote,
     sel,
     el('p', { class: 'group' }, 'Feedback captured on your review page'),
     el('div', { class: 'grid' },
@@ -65,4 +80,4 @@ function show(data, range = 30) {
 }
 
 if (!code || !CONFIG.STATS_URL) app.replaceChildren(el('section', { class: 'screen' }, el('h2', {}, !code ? 'Stats link is incomplete.' : 'Stats are not switched on yet.')));
-else login();
+else { loadLicense(); login(); }

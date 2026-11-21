@@ -1,6 +1,8 @@
 {
   "code": "nilay-shah",
   "active": true,
+  "ownFirm": true,
+  "license": "",
   "name": "Nilay Shah & Associates",
   "type": "ca",
   "kind": "service",

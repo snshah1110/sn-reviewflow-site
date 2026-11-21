@@ -1,6 +1,7 @@
 import * as E from './engine.js';
 import { LANGS, UI } from './i18n.js';
 import { CONFIG } from './config.js';
+import { licenseState } from './license.js';
 
 const app = document.getElementById('app');
 const SCREENS = ['welcome', 'rating', 'topics', 'choose', 'write', 'confirm', 'google', 'thanks'];
@@ -230,6 +231,11 @@ async function start() {
     S.biz = await r.json();
   } catch { return message(UI.en.notFound); }
   if (S.biz.active === false) return message(UI.en.paused);
+  // Paid businesses need a valid SN ReviewFlow key (S N Enterprise's own firms are marked ownFirm).
+  if (!S.biz.ownFirm) {
+    const lic = await licenseState(S.biz.code, S.biz.license);
+    if (!['active', 'grace'].includes(lic.state)) return message(UI.en.paused);
+  }
   if (S.biz.color && /^#[0-9a-f]{6}$/i.test(S.biz.color)) {
     document.documentElement.style.setProperty('--brand', S.biz.color);
     document.querySelector('meta[name=theme-color]').setAttribute('content', S.biz.color);
